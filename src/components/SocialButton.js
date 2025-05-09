@@ -6,7 +6,7 @@ const IconLink = styled.a`
   color: white;
   font-size: 1.5rem;
   &:hover {
-    color: #00ffc8;
+    color:rgb(43, 255, 0);
   }
 `;
 

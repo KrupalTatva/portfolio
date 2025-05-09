@@ -3,10 +3,12 @@ import styled from 'styled-components';
 import SkillChip from '../components//SkillChip';
 import SocialButton from '../components/SocialButton';
 import { Typewriter } from 'react-simple-typewriter';
+import NetworkAnimation from '../components/NetworkAnimation';
+import SmoothNetworkAnimation from '../components/SmoothNetworkAnimation';
 
 const Wrapper = styled.div`
   padding: 60px 30px;
-  background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)),
+  background: linear-gradient(rgb(0, 0, 0), rgba(0, 142, 2, 0.7)),
               url('https://images.unsplash.com/photo-1522199873713-4c8e1b1497c5?auto=format&fit=crop&w=1740&q=80') no-repeat center center;
   background-size: cover;
   min-height: 100vh;
@@ -15,7 +17,7 @@ const Wrapper = styled.div`
 
 const Name = styled.h1`
   font-size: 3rem;
-  color: #00ffc8;
+  color:rgb(0, 255, 76);
   font-weight: bold;
   margin-bottom: 0.5rem;
 `;
@@ -39,6 +41,8 @@ const ChipsWrapper = styled.div`
   display: flex;
   flex-wrap: wrap;
   gap: 10px;
+  width: 100%;
+  max-width: 700px;
 `;
 
 const SocialRow = styled.div`
@@ -77,6 +81,7 @@ const BioComponent = () => {
 
     return (
         <Wrapper>
+            <SmoothNetworkAnimation />
             <Name>{data.name}</Name>
             <Role>
                 I am a{' '}
