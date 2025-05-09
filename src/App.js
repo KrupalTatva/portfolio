@@ -1,14 +1,12 @@
 import './App.css';
-import UserList from "./components/userList";
-import EducationList from "./components/education";
-import ProjectList from "./components/projectList";
+import GlobalStyle from './style/GlobalStyle';
+import BioComponent from './main/BioPage';
 
 function App() {
   return (
     <div>
-      <UserList />
-      <EducationList />
-      <ProjectList />
+      <GlobalStyle />
+      <BioComponent />
     </div>
   );
 }

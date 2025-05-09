@@ -1,69 +1,184 @@
 {
+  "basicDetails": {
+    "name": "Krupal Patel",
+    "email": "bhuvakrupal03@gmail.com",
+    "phone": "+91-8530559043",
+    "location": "Ahmedabad, Gujarat, India",
+    "linkedIn": "https://www.linkedin.com/in/yourprofile",
+    "github": "https://github.com/yourusername",
+    "portfolio": "https://yourportfolio.com",
+    "facebook": "https://facebook.com/yourprofile",
+    "instagram": "https://instagram.com/yourprofile",
+    "twitter": "https://twitter.com/yourprofile",
+    "role": [
+      "Mobile App Developer",
+      "Software Engineer",
+      "Web Developer",
+      "Full Stack Developer",
+      "Cloud Engineer",
+      "DevOps Engineer"
+    ],
+    "skills": [
+      "Flutter",
+      "React Native",
+      "Android Development",
+      "iOS Development",
+      "Firebase",
+      "AWS",
+      "GraphQL",
+      "REST APIs",
+      "CI/CD",
+      "Agile Methodologies",
+      "Version Control (Git)",
+      "UI/UX Design",
+      "App Security",
+      "Performance Optimization"
+    ]
+  },  
   "education": [
     {
-      "college": "MIT",
-      "class": "Final Year",
-      "cgpa": "9.2",
-      "course": "B.Tech Computer Science"
-    },
-    {
-      "college": "Stanford University",
-      "class": "2nd Year",
-      "cgpa": "8.7",
-      "course": "MS Artificial Intelligence"
-    },
-    {
-      "college": "IIT Delhi",
-      "class": "3rd Year",
-      "cgpa": "9.0",
-      "course": "B.Tech Electrical Engineering"
-    },
-    {
-      "college": "Harvard",
-      "class": "1st Year",
-      "cgpa": "9.5",
-      "course": "MBA"
+      "degree": "Bachelor of Engineering",
+      "institute": "Gujarat Technological University",
+      "location": "Ahmedabad, Gujarat, India",
+      "duration": "2018 - 2022",
+      "grade": "9.06 CGPA"
     }
   ],
-  
+  "experience": [
+    {
+      "id": 3,
+      "img": "https://media.licdn.com/dms/image/C510BAQFrbJuGf0kW2g/company-logo_200_200/0/1631351828282?e=2147483647&v=beta&t=dp1MNqrdEPV8EN5yKsl_bhsB8fzUyt25pTz61drA-hQ",
+      "role": "Software Engineer",
+      "company": "TatvaSoft",
+      "date": "Jul 2023 - Present",
+      "desc": "Leading mobile development projects with a focus on scalable deployments, cloud integration, and robust CI/CD pipelines.",
+      "skills": [
+        "Mobile App Deployment",
+        "Cloud (AWS, Google Cloud)",
+        "CI/CD Pipeline",
+        "GitLab",
+        "Docker",
+        "SDK Management",
+        "Artifactory Management",
+        "Architectural Design",
+        "App Security",
+        "Performance Optimization",
+        "Project Delivery",
+        "Sprint Planning",
+        "Memory Management",
+        "Automated Testing",
+        "App Store Submission"
+      ],
+      "doc": ""
+    },
+    {
+      "id": 4,
+      "img": "https://media.licdn.com/dms/image/C510BAQFrbJuGf0kW2g/company-logo_200_200/0/1631351828282?e=2147483647&v=beta&t=dp1MNqrdEPV8EN5yKsl_bhsB8fzUyt25pTz61drA-hQ",
+      "role": "Associate Software Engineer",
+      "company": "TatvaSoft",
+      "date": "Jul 2022 - Jun 2023",
+      "desc": "Contributing to mobile development with cloud integration, architecture, and testing, ensuring scalable and maintainable solutions.",
+      "skills": [
+        "Mobile Architecture Design",
+        "Cross-Platform Development (Flutter, Android)",
+        "Cloud (Firebase, AWS)",
+        "GraphQL",
+        "REST APIs",
+        "CI/CD (Jenkins)",
+        "Version Control (GitHub, GitLab)",
+        "MVVM Architecture",
+        "App Testing (JUnit, Robolectric)",
+        "Agile Methodologies",
+        "Jira",
+        "Slack",
+        "Automated UI Testing",
+        "App Performance"
+      ],
+      "doc": ""
+    },
+    {
+      "id": 5,
+      "img": "https://media.licdn.com/dms/image/C510BAQFrbJuGf0kW2g/company-logo_200_200/0/1631351828282?e=2147483647&v=beta&t=dp1MNqrdEPV8EN5yKsl_bhsB8fzUyt25pTz61drA-hQ",
+      "role": "Android Development Intern",
+      "company": "TatvaSoft",
+      "date": "Sep 2021 - Jun 2022",
+      "desc": "Focused on Android development using Java, Kotlin, and Firebase, with an emphasis on async programming and version control.",
+      "skills": [
+        "Android Development (Java, Kotlin)",
+        "Firebase",
+        "MVVM Architecture",
+        "Async Programming",
+        "Version Control (Git)",
+        "XML Layouts",
+        "RESTful APIs",
+        "JUnit Testing",
+        "Debugging",
+        "Slack",
+        "Jira"
+      ],
+      "doc": ""
+    }
+  ],
   "projects": [
     {
-      "name": "AI Chatbot",
-      "description": "A smart chatbot using natural language processing.",
-      "price": 199.99,
-      "technology": ["React", "Node.js", "TensorFlow"],
-      "requirements": ["Basic ML knowledge", "API access"],
-      "creator": "Alice",
-      "rating": 4.8
+      "name": "FitnessPro - Full-Stack Workout App",
+      "description": "Designed and developed a scalable mobile fitness app offering custom workout plans, progress tracking, and multimedia coaching. Integrated Firebase for real-time data sync and AWS for hosting services. Implemented CI/CD pipelines for seamless deployment and release automation to Play Store and App Store. Added analytics and push notifications for enhanced user engagement.",
+      "technology": ["Flutter", "Firebase", "AWS S3", "AWS CloudFront", "Firebase Analytics", "CI/CD (GitLab)", "Firebase Auth", "Push Notifications", "Play Store Deployment"]
     },
     {
-      "name": "E-commerce App",
-      "description": "A full-stack shopping app with payment integration.",
-      "price": 299.49,
-      "technology": ["Flutter", "Firebase", "Stripe"],
-      "requirements": ["Google account", "Business details"],
-      "creator": "Bob",
-      "rating": 4.6
+      "name": "DocBook - Healthcare Booking Platform",
+      "description": "Built a HIPAA-compliant mobile solution where users book appointments, consult doctors online, and manage prescriptions. Integrated AWS Cognito for secure login, AWS RDS for database, and deployed backend APIs using AWS Lambda. Utilized Jenkins for CI/CD automation and monitored usage via AWS CloudWatch. Published app to Play Store with automated rollout.",
+      "technology": ["Flutter", "AWS Cognito", "AWS RDS", "AWS Lambda", "CI/CD (Jenkins)", "Play Store Release", "REST APIs", "Push Notifications", "CloudWatch", "Secure Data Encryption"]
     },
     {
-      "name": "Fitness Tracker",
-      "description": "An app to track workouts and calories.",
-      "price": 149.99,
-      "technology": ["Kotlin", "Firebase", "MPAndroidChart"],
-      "requirements": ["Android device", "Login credentials"],
-      "creator": "Charlie",
-      "rating": 4.4
+      "name": "EduConnect - Cross-Platform E-Learning Portal",
+      "description": "Developed a comprehensive LMS platform with student-teacher interaction, live classes, quizzes, and certification. Used React for web and Flutter for mobile with Firebase backend. Integrated Google Cloud functions for load balancing and Stripe for payments. CI/CD through GitHub Actions for multi-platform deployment. Hosted on Firebase Hosting and Vercel.",
+      "technology": ["Flutter", "React", "Firebase", "Google Cloud", "CI/CD (GitHub Actions)", "Firebase Hosting", "Vercel", "Firestore", "Stripe", "Push Notifications"]
     },
     {
-      "name": "Portfolio Website",
-      "description": "A personal portfolio to showcase projects and blogs.",
-      "price": 49.99,
-      "technology": ["HTML", "CSS", "JavaScript"],
-      "requirements": ["Domain name", "Project details"],
-      "creator": "Diana",
-      "rating": 4.9
+      "name": "BizFinder - Location-Based Business Discovery App",
+      "description": "Created a location-aware business discovery app with Google Maps integration, user reviews, and in-app messaging. AWS Amplify and Cognito were used for user management and hosting. Built pipelines using Bitrise for automated builds and Play Store submission. Included geofencing, real-time chat, and caching for performance.",
+      "technology": ["React Native", "AWS Amplify", "AWS Cognito", "Bitrise CI/CD", "Firebase Messaging", "Google Maps SDK", "Real-time Database", "Geofencing", "Play Store"]
+    },
+    {
+      "name": "Invoicer - Professional Invoice Generator",
+      "description": "An enterprise-grade invoicing app supporting multi-currency, PDF generation, email automation, and client management. Integrated AWS SES for invoice mailing, Flutter for mobile UI, and Jenkins for CI/CD. Authentication managed via Firebase Auth, and PDF templates stored in AWS S3. Released with versioning via Google Play Console tracks.",
+      "technology": ["Flutter", "Firebase Auth", "AWS SES", "AWS S3", "CI/CD (Jenkins)", "Google Play Console", "PDFKit", "Local DB (Hive)", "Multi-language Support"]
+    },
+    {
+      "name": "TaskSync - Agile Sprint Management App",
+      "description": "Designed for software teams to plan, track, and collaborate on sprint tasks. Implemented real-time syncing via Firebase Firestore, user authentication with AWS Cognito, and scheduled notifications via AWS EventBridge. GitHub Actions used for test automation and deployment. Offers role-based access control and activity logs.",
+      "technology": ["Flutter", "AWS Cognito", "Firebase Firestore", "AWS EventBridge", "CI/CD (GitHub Actions)", "RBAC", "Slack Integration", "Jira Webhook", "Offline Sync"]
+    },
+    {
+      "name": "ShopEase - Scalable E-Commerce App",
+      "description": "Created an e-commerce solution with integrated payment gateways, order tracking, and admin dashboard. Leveraged Firebase for product catalog, AWS Lambda for backend logic, and Stripe for secure payments. Used Bitbucket pipelines for CI/CD and deployed admin dashboard on AWS Amplify.",
+      "technology": ["Flutter", "Firebase", "Stripe", "AWS Lambda", "Bitbucket CI/CD", "Amplify", "Push Notifications", "Multi-vendor System", "Play Store"]
+    },
+    {
+      "name": "ChatLoop - Real-Time Messaging Platform",
+      "description": "Secure and scalable messaging app with end-to-end encryption, group chat, media sharing, and presence status. Used Firebase for real-time messaging and AWS KMS for encryption key management. Deployed CI/CD with Codemagic and implemented crash reporting via Firebase Crashlytics.",
+      "technology": ["Flutter", "Firebase Realtime DB", "Firebase Crashlytics", "Codemagic CI/CD", "AWS KMS", "Push Notifications", "Image Compression", "Cloud Storage"]
+    },
+    {
+      "name": "MyBudget - Personal Finance Tracker",
+      "description": "Designed a personal budgeting app supporting recurring transactions, visual analytics, and goal tracking. Integrated biometric authentication and encrypted local data. Used Firebase for sync and GitHub Actions for CI. Offers monthly PDF reports and cloud backup through Google Drive API.",
+      "technology": ["Flutter", "Firebase", "Google Drive API", "Biometric Auth", "Encryption", "Charts", "GitHub Actions", "PDF Generation"]
+    },
+    {
+      "name": "EventNow - Event Management Ecosystem",
+      "description": "Developed a complete platform for event organizers and attendees, including QR-based check-in, real-time updates, and ticketing system. CI/CD with GitLab ensured automated testing and release. Hosted backend with Firebase Functions and Cloud Scheduler for reminders.",
+      "technology": ["Flutter", "Firebase Functions", "QR Code", "GitLab CI/CD", "Push Notifications", "Cloud Scheduler", "Firestore", "Play Store"]
+    },
+    {
+      "name": "SafeSpace - Mental Wellness Tracker",
+      "description": "Built a privacy-focused mental health journal with mood tracking, affirmations, and reminders. Integrated AWS S3 for cloud sync and Cognito for user authentication. Used Hive for encrypted local storage and implemented CI/CD through Codemagic for frequent updates.",
+      "technology": ["Flutter", "Hive DB", "AWS S3", "AWS Cognito", "Codemagic CI/CD", "Encryption", "Local Notifications", "Analytics"]
+    },
+    {
+      "name": "QuickNotes - Offline Notes & Cloud Sync",
+      "description": "A fast and secure notes app with tag management, color coding, offline access, and Google Drive sync. Authenticated using Firebase Auth and released using Bitrise CI/CD workflows. Included nightly builds and crash reporting for stable releases.",
+      "technology": ["Flutter", "Google Drive API", "Firebase Auth", "Bitrise", "Crashlytics", "Local DB", "Theming", "Offline Mode", "Play Store"]
     }
   ]
 }
-
-
