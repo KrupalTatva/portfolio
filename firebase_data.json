@@ -1,0 +1,69 @@
+{
+  "education": [
+    {
+      "college": "MIT",
+      "class": "Final Year",
+      "cgpa": "9.2",
+      "course": "B.Tech Computer Science"
+    },
+    {
+      "college": "Stanford University",
+      "class": "2nd Year",
+      "cgpa": "8.7",
+      "course": "MS Artificial Intelligence"
+    },
+    {
+      "college": "IIT Delhi",
+      "class": "3rd Year",
+      "cgpa": "9.0",
+      "course": "B.Tech Electrical Engineering"
+    },
+    {
+      "college": "Harvard",
+      "class": "1st Year",
+      "cgpa": "9.5",
+      "course": "MBA"
+    }
+  ],
+  
+  "projects": [
+    {
+      "name": "AI Chatbot",
+      "description": "A smart chatbot using natural language processing.",
+      "price": 199.99,
+      "technology": ["React", "Node.js", "TensorFlow"],
+      "requirements": ["Basic ML knowledge", "API access"],
+      "creator": "Alice",
+      "rating": 4.8
+    },
+    {
+      "name": "E-commerce App",
+      "description": "A full-stack shopping app with payment integration.",
+      "price": 299.49,
+      "technology": ["Flutter", "Firebase", "Stripe"],
+      "requirements": ["Google account", "Business details"],
+      "creator": "Bob",
+      "rating": 4.6
+    },
+    {
+      "name": "Fitness Tracker",
+      "description": "An app to track workouts and calories.",
+      "price": 149.99,
+      "technology": ["Kotlin", "Firebase", "MPAndroidChart"],
+      "requirements": ["Android device", "Login credentials"],
+      "creator": "Charlie",
+      "rating": 4.4
+    },
+    {
+      "name": "Portfolio Website",
+      "description": "A personal portfolio to showcase projects and blogs.",
+      "price": 49.99,
+      "technology": ["HTML", "CSS", "JavaScript"],
+      "requirements": ["Domain name", "Project details"],
+      "creator": "Diana",
+      "rating": 4.9
+    }
+  ]
+}
+
+
