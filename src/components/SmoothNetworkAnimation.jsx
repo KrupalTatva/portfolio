@@ -1,6 +1,10 @@
 import React, { useEffect, useRef } from 'react';
 import '../style/NetworkAnimation.css';
 
+
+
+
+
 const NODE_COUNT = 60;
 const SPEED = 0.3; // Lower is slower
 

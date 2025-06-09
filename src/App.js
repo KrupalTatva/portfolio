@@ -1,13 +1,17 @@
 import './App.css';
 import GlobalStyle from './style/GlobalStyle';
 import BioComponent from './main/BioPage';
+import { ThemeProvider } from './theme/ThemeContext';
 
 function App() {
   return (
-    <div>
+      <ThemeProvider>
+<div>
       <GlobalStyle />
       <BioComponent />
     </div>
+      </ThemeProvider>
+    
   );
 }
 

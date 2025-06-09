@@ -4,16 +4,16 @@
   left: 0;
   width: 100%;
   height: 100%;
-  background: #0d0d0d;
+  background: var(--background-color, #000);
   z-index: -1;
   overflow: hidden;
 }
 
 .node {
-  fill: #84ff00;
+  fill: var(--network-node-color, #84ff00);
 }
 
 .line {
-  stroke: rgba(60, 255, 0, 0.848);
+  stroke: var(--network-line-color, rgba(60, 255, 0, 0.848));
   stroke-width: 1;
-}
+} 

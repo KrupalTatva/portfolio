@@ -6,7 +6,7 @@ const IconLink = styled.a`
   color: white;
   font-size: 1.5rem;
   &:hover {
-    color:rgb(43, 255, 0);
+    color:var(--social-icon-color);
   }
 `;
 

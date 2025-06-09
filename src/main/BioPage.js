@@ -3,12 +3,13 @@ import styled from 'styled-components';
 import SkillChip from '../components//SkillChip';
 import SocialButton from '../components/SocialButton';
 import { Typewriter } from 'react-simple-typewriter';
-import NetworkAnimation from '../components/NetworkAnimation';
 import SmoothNetworkAnimation from '../components/SmoothNetworkAnimation';
+import Navbar from '../components/NavBar';
+import RoundImage from '../components/RoundImage';
+import developer from '../assets/images/developer.png';
 
 const Wrapper = styled.div`
-  padding: 60px 30px;
-  background: linear-gradient(rgb(0, 0, 0), rgba(0, 142, 2, 0.7)),
+  background: linear-gradient(var(--bg-black), var(--primary-color)),
               url('https://images.unsplash.com/photo-1522199873713-4c8e1b1497c5?auto=format&fit=crop&w=1740&q=80') no-repeat center center;
   background-size: cover;
   min-height: 100vh;
@@ -17,19 +18,25 @@ const Wrapper = styled.div`
 
 const Name = styled.h1`
   font-size: 3rem;
-  color:rgb(0, 255, 76);
+  color:var(--header-text-color);
   font-weight: bold;
-  margin-bottom: 0.5rem;
+  margin-top: 100px;
+  margin-bottom: 10px;
+`;
+
+const Title = styled.h3`
+  color:var(--header-text-color);
 `;
 
 const Role = styled.h2`
   font-size: 1.5rem;
-  color: #ffffff;
+  color: var(--title-text-color);
 `;
 
 const Info = styled.p`
   margin: 5px 0;
   font-size: 1rem;
+  color:var(--title-text-color);
 `;
 
 const Section = styled.div`
@@ -82,6 +89,7 @@ const BioComponent = () => {
     return (
         <Wrapper>
             <SmoothNetworkAnimation />
+            <Navbar/>
             <Name>{data.name}</Name>
             <Role>
                 I am a{' '}
@@ -95,7 +103,7 @@ const BioComponent = () => {
                     delaySpeed={1000}
                 />
             </Role>
-
+            <RoundImage src={developer} alt="Profile" />
             <Section>
                 <Info>📍 {data.location}</Info>
                 <Info>📧 {data.email}</Info>
@@ -103,7 +111,7 @@ const BioComponent = () => {
             </Section>
 
             <Section>
-                <h3>Skills</h3>
+                <Title>Skills</Title>
                 <ChipsWrapper>
                     {data.skills.map((skill, idx) => (
                         <SkillChip key={idx} label={skill} />

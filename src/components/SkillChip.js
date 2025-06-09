@@ -2,10 +2,10 @@ import React from 'react';
 import styled from 'styled-components';
 
 const Chip = styled.span`
-  background-color: rgba(255, 255, 255, 0.1);
+  background-color: var(--bg-chip);
   padding: 6px 15px;
   border-radius: 20px;
-  border: 1px solid #00ffc8;
+  border: 1px solid var(--primary-color);
   font-size: 0.85rem;
 `;
 
