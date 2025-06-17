@@ -77,43 +77,55 @@ export default function GLBModelWithControls({
       <div
         style={{
           marginTop: 20,
-          display: 'flex',
-          justifyContent: 'center',
-          gap: 10,
-          flexWrap: 'wrap',
+          overflowX: 'auto',
+          whiteSpace: 'nowrap',
+          padding: '10px 0',
         }}
       >
-        {animationNames.map((name) => (
-          <button
-            key={name}
-            onClick={() => handlePlay(name)}
-            style={{
-              padding: '10px 20px',
-              border: '1px solid #333',
-              borderRadius: '5px',
-              cursor: 'pointer',
-            }}
-          >
-            {name}
-          </button>
-        ))}
+        <div
+          style={{
+            display: 'inline-flex',
+            gap: 10,
+            padding: '0 10px',
+          }}
+        >
+          {animationNames.map((name) => (
+            <button
+              key={name}
+              onClick={() => handlePlay(name)}
+              style={{
+                padding: '10px 20px',
+                border: '1px solid #333',
+                borderRadius: '5px',
+                cursor: 'pointer',
+                whiteSpace: 'nowrap',
+                flex: '0 0 auto',
+              }}
+            >
+              {name}
+            </button>
+          ))}
 
-        {animationNames.length > 0 && (
-          <button
-            onClick={handleStop}
-            style={{
-              padding: '10px 20px',
-              backgroundColor: '#f44336',
-              color: 'white',
-              border: 'none',
-              borderRadius: '5px',
-              cursor: 'pointer',
-            }}
-          >
-            Stop
-          </button>
-        )}
+          {animationNames.length > 0 && (
+            <button
+              onClick={handleStop}
+              style={{
+                padding: '10px 20px',
+                backgroundColor: '#f44336',
+                color: 'white',
+                border: 'none',
+                borderRadius: '5px',
+                cursor: 'pointer',
+                whiteSpace: 'nowrap',
+                flex: '0 0 auto',
+              }}
+            >
+              Stop
+            </button>
+          )}
+        </div>
       </div>
+
     </div>
   );
 }

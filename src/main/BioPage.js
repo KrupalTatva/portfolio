@@ -9,6 +9,7 @@ import RoundImage from '../components/RoundImage';
 import developer from '../assets/images/developer.png';
 import GLBModelViewer from '../components/GLBModelViewer';
 import GLBModelWithControls from '../components/GLBModelWithControls';
+import GLBViewer from '../components/GLBSlider';
 
 const Wrapper = styled.div`
   background: linear-gradient(var(--bg-black), var(--primary-color)),
@@ -82,32 +83,6 @@ const labelStyles = {
   color: '#333',
 };
 
-
-const glbFiles = [
-  'animation/360_sphere_robot_done.glb',
-  'animation/360_sphere_robot.glb',
-  'animation/csa_robot.glb',
-  'animation/drone_scifi.glb',
-  'animation/earth_hologram.glb',
-  'animation/futuristic_flying_animated_robot_-_low_poly.glb',
-  'animation/keyboardist_robot.glb',
-  'animation/kuma_heavy_robot_r-9000s.glb',
-  'animation/nerinho_-_mascote_da_neomind.glb',
-  'animation/robert_the_robot.glb',
-  'animation/ROBOT_ANIM_C.glb',
-  'animation/robot_estrategia_digital.glb',
-  'animation/robot_playground.glb',
-  'animation/robot_rocket.glb',
-  'animation/robot.glb',
-  'animation/rodot_5000_-_flying_robot.glb',
-  'animation/sci-fi_panels.glb',
-  // 'animation/scifi_meeting_table.gltf',
-  'animation/scific_drone_for_free.glb',
-  'animation/simulation_laser_cutting_robot_systems.glb',
-  'animation/small_robot.glb',
-  'animation/world_sphere_s7ntech.glb',
-];
-
 const BioComponent = () => {
   const data = {
     name: "Krupal Patel",
@@ -140,17 +115,9 @@ const BioComponent = () => {
     <Wrapper>
       <SmoothNetworkAnimation />
       <Navbar />
-       <div style={gridStyles}>
-      {glbFiles.map((file, index) => (
-        <div key={index} style={itemStyles}>
-          <GLBModelWithControls
-            modelUrl={file}
-            scale={[2, 2, 2]}
-            position={[0, -1, 0]}
-          />
-          <p style={labelStyles}>{file}</p>
-        </div>
-      ))}
+       <div>
+      <h2 style={{ textAlign: 'center' }}>3D Model Viewer</h2>
+      <GLBViewer />
     </div>
       {/* info section */}
       {/* <Name>{data.name}</Name>
