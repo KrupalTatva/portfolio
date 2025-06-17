@@ -9,7 +9,7 @@ function App() {
 <div>
       <GlobalStyle />
       <BioComponent />
-    </div>
+       </div>
       </ThemeProvider>
     
   );
